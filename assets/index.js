@@ -144,7 +144,7 @@ function eMode() {
     setTimeout(function () {document.getElementById("phrase_number").innerHTML = $n + " / 25";}, 8500)
     }
 
-$word_input.style.display = "block"; $check_btn.style.transform = "scale(1)"; $reset_btn.style.opacity = "1"; $reset_btn.style.transform = "scale(1)"; $reset_btn.disabled = false; $check_btn.disabled = false; $phrase_target.style.opacity = "1"; document.getElementById("pause").style.display = "none"; document.getElementById("paused").style.display = "none";
+$word_input.style.display = "block"; $check_btn.style.transform = "scale(1)"; $reset_btn.style.opacity = "1"; $reset_btn.style.transform = "scale(1)"; $reset_btn.disabled = false; $check_btn.disabled = false; $phrase_target.style.opacity = "1"; document.getElementById("paused").style.display = "none";
 
 function pause() {
     document.getElementById("paused").style.transform = "scale(1)";

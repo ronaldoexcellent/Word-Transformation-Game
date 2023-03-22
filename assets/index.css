@@ -247,3 +247,10 @@ input[type=text], input[type=search] {
     #SS {
         width: 230px;
     }
+
+    .bmac {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        background: white;
+    }
